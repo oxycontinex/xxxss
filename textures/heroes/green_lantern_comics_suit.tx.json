@@ -1,0 +1,22 @@
+{
+  "texture": {
+    "in": "amazingheroes:green_lantern_comics",
+    "transform": [
+      {
+        "operation": "XOR",
+        "supply": "amazingheroes:xor/green_lantern_suit_<TIMER>"
+      }
+    ],
+    "out": "amazingheroes:generated/green_lantern_comics_<TIMER>"
+  },
+  "getters": {
+    "TIMER": {
+      "key": "Math.ceil(28 * entity.getInterpolatedData('amazingheroes:dyn/lantern_timer')) | 0",
+      "values": {
+        "min": 1,
+        "max": 28
+      }
+    }
+  },
+  "isDynamic": true
+}
