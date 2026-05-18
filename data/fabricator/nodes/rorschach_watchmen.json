@@ -1,0 +1,10 @@
+{
+  "suit": "amazingheroes:rorschach_watchmen",
+  "requirements": [
+    "amazingheroes:amazingheroes",
+    "fiskheroes:tier1",
+	"fiskheroes:melee",
+    "fiskheroes:ranged",
+    "fiskheroes:object_manipulation"
+  ]
+}

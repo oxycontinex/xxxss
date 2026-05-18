@@ -1,0 +1,7 @@
+{
+  "inputs": [
+    "fiskheroes:flight/header",
+    "amazingheroes:black_adam_hover",
+    "amazingheroes:black_adam_boost"
+  ]
+}

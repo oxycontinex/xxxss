@@ -1,0 +1,86 @@
+{
+  "name": "Mephisto's Spirit",
+  "modifiers": {
+    "fiskheroes:transformation": {
+      "key": "MEPHISTO_SPIRIT",
+      "transformation": {
+        "toggleData": "amazingheroes:dyn/mephisto_spirit",
+        "timerData": "amazingheroes:dyn/mephisto_spirit_timer",
+        "time": 10
+      },
+      "soundEvents": {
+        "ENABLE": "fiskheroes:flame_on",
+        "DISABLE": "fiskheroes:flame_off"
+      }
+    },
+    "fiskheroes:spellcasting": {
+      "spells": {
+        "fiskheroes:whip": {
+          "sequence": "wssds",
+          "cooldown": 50,
+          "damageProfile": {
+            "damage": 5,
+            "types": {
+              "MAGIC": 1,
+              "FIRE": 1
+            }
+          },
+          "whipBurn": {
+            "frequency": 20,
+            "damageProfile": {
+              "damage": 0.5,
+              "types": {
+                "MAGIC": 1,
+                "FIRE": 1
+              },
+              "properties": {
+                "REDUCE_KNOCKBACK": 1
+              }
+            }
+          }
+        }
+      },
+      "soundEvents": {
+        "CAST": "fiskheroes:spell_cast",
+        "CAST_FAIL": "fiskheroes:spell_fail"
+      }
+    },
+    "fiskheroes:fireball": {
+      "damageProfile": {
+        "damage": 6,
+        "types": {
+          "FIRE": 1
+        },
+        "properties": {
+          "COOK_ENTITY": true,
+          "HEAT_TRANSFER": 20,
+          "IGNITE": 3
+        }
+      },
+      "radius": 2.5,
+      "cooldownTime": 5,
+      "soundEvents": {
+        "SHOOT": "fiskheroes:fireball"
+      }
+    },
+    "fiskheroes:flame_blast": {
+      "damageProfile": {
+        "damage": 5,
+        "types": {
+          "FIRE": 1
+        },
+        "properties": {
+          "COOK_ENTITY": true,
+          "HEAT_TRANSFER": 160,
+          "IGNITE": 2
+        }
+      },
+      "range": 10
+    },
+    "fiskheroes:fire_immunity": {},
+    "fiskheroes:damage_weakness": {
+      "damageType": "COLD",
+      "factor": 2
+    }
+  }
+}

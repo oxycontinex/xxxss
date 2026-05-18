@@ -1,0 +1,9 @@
+{
+  "suit": "amazingheroes:human_torch_comics",
+  "requirements": [
+    "amazingheroes:amazingheroes",
+    "fiskheroes:tier4_5",
+    "fiskheroes:flight",
+    "fiskheroes:ranged2"
+  ]
+}

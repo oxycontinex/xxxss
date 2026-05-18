@@ -1,0 +1,89 @@
+{
+  "name": "power.fiskheroes.divine_empowerment.name",
+  "modifiers": {
+    "fiskheroes:controlled_flight": {
+      "speed": 0.1,
+      "boostSpeed": 0.25,
+      "canBoost": true,
+      "collision": {
+        "blocks": {
+          "stopFlying": false,
+          "takeDamage": true
+        },
+        "entities": {
+          "stopFlying": false,
+          "dealDamage": true
+        }
+      },
+      "knockback": 0.4,
+      "soundEvents": {
+        "ENABLE": ["fiskheroes:flight_loop", "fiskheroes:flight_loop"],
+        "BOOST": ["fiskheroes:flight_boost", "fiskheroes:flight_boost_super"]
+      }
+    },
+    "fiskheroes:leaping": {
+      "leapAmount": [1.5, 0.3]
+    },
+	"fiskheroes:energy_projection": {
+      "damageProfile": {
+        "damage": 7.0,
+        "types": {
+          "ELECTRICITY": 1.0,
+          "ENERGY": 1.0
+        },
+        "properties": {
+          "COOK_ENTITY": true
+        }
+      },
+      "range": 17.0,
+      "radius": 0.1,
+      "soundEvents": {
+        "SHOOT": "fiskheroes:energy_projection"
+      }
+    },
+    "fiskheroes:fire_immunity": {
+    },
+    "fiskheroes:projectile_immunity": {
+    },
+    "fiskheroes:arrow_catching": {
+    },
+	"fiskheroes:damage_immunity": {
+      "damageType": "BULLET"
+    },
+	"fiskheroes:regeneration": {
+      "factor": 4
+    },
+    "fiskheroes:potion_immunity": {
+      "potionEffects": ["minecraft:nausea", "minecraft:poison", "minecraft:wither"]
+    },
+	"fiskheroes:ground_smash": {
+	},
+    "fiskheroes:lightning_cast": {
+      "damageProfile": {
+        "damage": 10.0,
+        "types": {
+          "ELECTRICITY": 1.0,
+          "MAGIC": 1.0
+        },
+        "properties": {
+          "COOK_ENTITY": true,
+          "LIGHTNING_STRIKE": 0.2
+        }
+      },
+      "range": 48.0,
+      "chainRadius": 2.5,
+      "cooldownTime": 20,
+      "soundEvents": {
+        "SHOOT": "fiskheroes:lightning_cast"
+      }
+    },
+    "fiskheroes:damage_weakness": {
+      "damageType": "ETERNIUM",
+      "factor": 2.0
+    },
+    "fiskheroes:eternium_weakness": {
+      "radius": 3.0,
+      "duration": 120
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Controlled Flight",
+  "modifiers": {
+    "fiskheroes:controlled_flight": {
+      "speed": 0.08,
+      "boostSpeed": 0.12,
+      "canBoost": false,
+      "soundEvents": {
+        "ENABLE": ["fiskheroes:flight_loop"],
+        "BOOST": "fiskheroes:flight_boost"
+      }
+    }
+  }
+}

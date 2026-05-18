@@ -1,0 +1,12 @@
+{
+  "suit": "amazingheroes:green_lantern_comics",
+  "requirements": [
+    "amazingheroes:amazingheroes",
+    "fiskheroes:tier8_9",
+    "fiskheroes:flight",
+    "fiskheroes:traversal",
+	"fiskheroes:ranged3",
+    "fiskheroes:melee2",
+    "fiskheroes:defense3"
+  ]
+}

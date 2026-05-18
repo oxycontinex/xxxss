@@ -1,0 +1,15 @@
+{
+  "suit": "amazingheroes:doctor_manhattan_watchmen",
+  "requirements": [
+    "amazingheroes:amazingheroes",
+    "fiskheroes:tier10",
+    "fiskheroes:size_manipulation",
+    "fiskheroes:traversal2",
+    "fiskheroes:defense3",
+	"fiskheroes:flight",
+    "fiskheroes:intangibility",
+    "fiskheroes:melee3",
+    "fiskheroes:ranged3",
+    "fiskheroes:cosmic"
+  ]
+}

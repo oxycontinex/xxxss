@@ -1,0 +1,12 @@
+{
+  "display": {
+    "name": {
+      "translate": "Amazing Heroes"
+    },
+    "icon": {
+      "texture": "amazingheroes:textures/gui/nodes/amazingheroes.png"
+    }
+  },
+  "autoUnlock": true,
+  "requirements": []
+}

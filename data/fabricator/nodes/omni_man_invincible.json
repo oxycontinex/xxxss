@@ -1,0 +1,10 @@
+{
+  "suit": "amazingheroes:omni_man_invincible",
+  "requirements": [
+    "amazingheroes:amazingheroes",
+    "fiskheroes:tier8_9",
+    "fiskheroes:flight",
+    "fiskheroes:defense3",
+    "fiskheroes:melee2"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "suit": "amazingheroes:the_comedian_watchmen",
+  "requirements": [
+    "amazingheroes:amazingheroes",
+    "fiskheroes:tier4_5",
+    "fiskheroes:defense",
+    "fiskheroes:marksmanship"
+  ]
+}

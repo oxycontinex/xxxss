@@ -1,0 +1,94 @@
+{
+  "name": "Will Empowerment",
+  "modifiers": {
+    "fiskheroes:transformation": {
+      "key": "RING",
+      "transformation": {
+        "toggleData": "amazingheroes:dyn/lantern",
+        "timerData": "amazingheroes:dyn/lantern_timer",
+        "time": 10
+      }
+    },
+    "fiskheroes:cooldown": {
+      "cooldown": {
+        "toggleData": "amazingheroes:dyn/lantern",
+        "cooldownData": "amazingheroes:dyn/lantern_cooldown",
+        "duration": 12500,
+        "recovery": 5.0
+      }
+    },
+    "fiskheroes:controlled_flight": {
+      "speed": 0.1,
+      "boostSpeed": 0.25,
+      "canBoost": true,
+      "collision": {
+        "blocks": {
+          "stopFlying": false,
+          "takeDamage": true
+        },
+        "entities": {
+          "stopFlying": false,
+          "dealDamage": true
+        }
+      },
+      "knockback": 0.4,
+      "soundEvents": {
+        "ENABLE": ["fiskheroes:flight_loop"],
+        "BOOST": "fiskheroes:flight_boost"
+	  }
+    },
+	"fiskheroes:shield": {
+      "shield": {
+        "health": 200.0,
+        "regeneration": 15.0,
+        "recoveryDelay": 100,
+        "cooldown": 240
+      },
+      "coverage": {
+        "yawRadius": 180.0,
+        "pitchRadius": 180.0,
+        "yawOffset": 0.0,
+        "pitchOffset": 0.0
+      },
+      "knockback": 0.0,
+      "isToggle": false,
+      "soundEvents": {
+        "BLOCK_START": "fiskheroes:anti_forcefield",
+        "DEFLECT": "fiskheroes:anti_forcefield_deflect"
+      }
+    },
+    "fiskheroes:projectile_immunity": {
+    },
+	"fiskheroes:blade": {
+    },
+    "fiskheroes:arrow_catching": {
+    },
+    "fiskheroes:water_breathing": {
+    },
+    "fiskheroes:energy_projection": {
+      "damageProfile": {
+        "damage": 7.0,
+        "types": {
+          "ENERGY": 1.0,
+          "FIRE": 0.5
+        },
+        "properties": {
+          "COOK_ENTITY": true,
+          "HEAT_TRANSFER": 20
+        }
+      },
+      "range": 32.0,
+      "radius": 0.1,
+      "soundEvents": {
+        "BEAM_AMBIENT": "fiskheroes:energy_projection"
+	 }
+	}
+    },
+  "hud": [
+    {
+      "type": "PROGRESS",
+      "texture": "amazingheroes:textures/gui/bars/lantern_transformation.png",
+      "data": "amazingheroes:dyn/lantern_cooldown"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "suit": "amazingheroes:ghost_rider",
+  "requirements": [
+    "amazingheroes:amazingheroes",
+    "fiskheroes:tier6_7",
+	"fiskheroes:magic",
+	"fiskheroes:male2",
+	"fiskheroes:defense",
+    "fiskheroes:ranged2"
+  ]
+}
