@@ -1,0 +1,15 @@
+{
+  "name": "Amazing Heroes",
+  "description": "Version: 1.2",
+  "domain": "amazingheroes",
+  "minVersion": "2.1.0",
+  "packFormat": 1,
+  "dataVars": {
+	"lantern": "BOOLEAN",
+    "lantern_timer": "FLOAT_INTERP",
+    "lantern_cooldown": "FLOAT",
+	"mephisto_spirit": "BOOLEAN",
+    "mephisto_spirit_timer": "FLOAT_INTERP",
+    "mephisto_spirit_cooldown": "FLOAT"
+  }
+}
